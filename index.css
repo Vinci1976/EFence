@@ -1,0 +1,63 @@
+@charset"UTF-8";
+
+body {
+	border: none;
+}
+
+h1 {
+	color: blue;
+}
+
+p {
+	color: green;
+}
+
+div {
+	color: yellow;
+	border: none;
+}
+
+div p {
+	color: red;
+}
+
+/* for class*/
+.classgray {
+	color: gray;
+}
+
+/* for id */
+#idpurple {
+	color: purple;
+}
+
+/* p with class=classorange*/
+p.classorange {
+	color: orange;
+}
+
+
+/* nthu webing*/
+iframe { 
+	width: 379;
+	height: 762; 
+	border:none;
+	color:black; 
+}
+#iframe_block {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	display: block; 
+	border: 1 px; 
+}
+#ifrm {
+	border: none; 
+	transform: rotate(0deg);
+	/* width: 379;
+	height: 762; 
+	border: 1 px;
+	color: black; 
+	transform: rotate(0deg); */ 
+}
+

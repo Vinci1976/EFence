@@ -1,0 +1,82 @@
+
+<html>
+<head>
+<meta charset="utf-8" >
+<title>UMCSecurity</title>
+<link rel="apple-touch-icon" href="UMC.png">
+
+<meta name="apple-mobile-web-app-capable" content="yes" >
+<meta name="apple-mobile-web-app-status-bar-style" content="black" >
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+<meta name="mobile-web-app-capable" content="yes">
+
+
+
+<style type="text/css">
+iframe{ 
+width: 379;
+height: 762; 
+border:none;
+color:black; 
+}
+//#iframe_block{ 
+//position: fixed; 
+//left:0; 
+//top:0px; 
+//right:0; 
+//bottom:0; 
+//border:none; 
+//} 
+
+</style>
+
+
+</head>
+
+<script>
+//判斷手機橫豎屏狀態：
+function scrRT(){
+var obj1=document.getElementById('iframe_block'); 
+//var obj2=document.getElementById('bg_rotate'); 
+if(window.orientation==180||window.orientation==0){
+obj1.style.width=379; 
+obj1.style.top=0;
+obj1.style.left=0;
+obj1.style.transform='rotate(0deg)' ;
+obj1.style.display = 'block' ;
+//obj2.style.display = 'none' ;
+}
+if(window.orientation==90){
+//alert("橫屏狀態！") ;
+//obj2.style.display = 'block' ;
+obj1.style.width=379; 
+obj1.style.top=-193;
+obj1.style.left=193;
+obj1.style.transform='rotate(-90deg)' ;
+}
+if(window.orientation==-90){
+obj1.style.width=379; 
+obj1.style.top=-193;
+obj1.style.left=193;
+obj1.style.transform='rotate(90deg)' ;
+}
+}
+window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", scrRT, false);
+</script>
+
+
+<body>
+
+<div id="iframe_block" style="position: absolute; top: 0; left: 0; display: block; border:none; ">
+<iframe id=ifrm name=iframe1 src='index_0.html' frameborder=no marginwidth=0 marginheight=0 scrolling=no allowtransparency=yes style="border: none; transform: rotate(0deg); ">
+</iframe>
+</div>
+
+
+<!-- 
+<div id="bg_rotate" style="position: absolute; color: white; top: 0; left: 0; display: none; ">
+<IMG SRC="umc01-rt.jpg" height=379 style="border:1px solid black; ">
+</div>
+-->
+</body>
+</html>

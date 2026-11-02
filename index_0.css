@@ -1,0 +1,132 @@
+/* 基本樣式設定，使時鐘居中顯示 */
+body {
+	
+     background-image: url(umc01.jpg);
+     background-repeat: no-repeat;
+     background-size: contain; 
+     margin: 0;  
+     height: 100%; 
+     width: 100%;
+     color: black ;
+     overflow: hidden;
+     -webkit-user-select: none; 
+     
+     	background-color: #000;      /* 背景設為白色 */
+     font-family:Arial, sans-serif;
+
+}
+
+
+
+/* 時間文字的樣式 */
+#showbox {
+	position: relative; /* position: fixed; absolute */ 
+	/* color: white; */ 
+	top: 318px; 
+	left: 1px; 
+    font-size: 55px;            /* 設定時間文字的大小 */
+    color: #fff;                /* 設定時間文字的顏色 */
+    text-align: center;         /* 文字居中 */
+}
+
+
+
+#App {
+	position: relative; /* position: fixed; absolute */ 
+	top: 562px; 
+	left: 1px; 
+	visibility: visible; 
+	border: 5px; 
+/*    background-color: #fff;      背景設為白色 */
+}
+#App00 {
+	position: absolute; 
+	top: 497px; 
+	left: 77px; 
+	visibility: visible; 
+	border: none; 
+}
+#App00IMG {
+/* 	background-color: #fff;      背景設為白色 */
+
+}
+#App01 {
+	position: absolute; 
+	color: black; 
+	top: 0; 
+	left: 0; 
+	/* visibility: hidden; */
+}
+#App02 {
+	position: absolute; 
+	color: white; 
+	top: 0; 
+	left: 0; 	
+	visibility: hidden; 
+}
+#App03 {
+	position: absolute; 
+	color: white; 
+	top: 0; 
+	left: 0; 	
+	visibility: hidden; 
+}
+#AreaApp03_01 {
+	position: absolute; 
+	color: white; 
+	top: 0; 
+	left: 0; 	
+	visibility: visible; 
+	border: solid;
+	background-color: #fff;      /* 背景設為白色 */
+}
+#AreaApp03_02 {
+	position: absolute; 
+	color: white; 
+	top: 0; 
+	left: 0; 	
+	visibility: visible; 
+	border: solid;
+	background-color: #fff;      /* 背景設為白色 */
+}
+#AreaApp03_03 {
+	position: absolute; 
+	color: white; 
+	top: 0; 
+	left: 0; 	
+	visibility: visible; 
+	border: solid;
+	background-color: #fff;      /* 背景設為白色 */
+}
+#App04 {
+	position: absolute; 
+	color: white; 
+	top: 0; 
+	left: 0; 	
+	visibility: hidden; 
+}
+#AreaApp04 {
+	position: absolute; 
+	color: white; 
+	top: 0; 
+	left: 0; 	
+	visibility: visible; 
+	border: solid;
+	background-color: #fff;      /* 背景設為白色 */
+}
+#App05 {
+	position: absolute; 
+	color: white; 
+	top: 0; 
+	left: 0; 	
+	visibility: hidden; 
+}
+#AreaApp05 {
+	position: absolute; 
+	color: white; 
+	top: 0; 
+	left: 0; 	
+	visibility: visible; 
+	border: solid;
+	background-color: #fff;      /* 背景設為白色 */
+}
