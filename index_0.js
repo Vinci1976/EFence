@@ -7,49 +7,46 @@ Area01Element.addEventListener('click', function() {
 	//alert("Area01");
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='visible';
-	document.getElementById('App').style.visibility='visible';
-	document.getElementById('App00').style.visibility='visible';  
-   	document.getElementById('App02').style.visibility='hidden';
+	document.getElementById('App').style.visibility='visible';   
+	document.getElementById('App02').style.visibility='hidden';
 	document.getElementById('App03').style.visibility='hidden';
 	document.getElementById('App04').style.visibility='hidden'; 
 	document.getElementById('App05').style.visibility='hidden';  
-	console.log('Area1 被點擊了！');  //Chrome debug: can see Console's Log
+	console.log('Area1 被點擊了！');
 } );
 const Area02Element = document.getElementById('Area02');
 Area02Element.addEventListener('click', function() {
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='hidden';
 	document.getElementById('App').style.visibility='visible';  
-	document.getElementById('App00').style.visibility='hidden';
 	document.getElementById('App02').style.visibility='visible'; 
 	document.getElementById('App03').style.visibility='hidden';
 	document.getElementById('App04').style.visibility='hidden';
 	document.getElementById('App05').style.visibility='hidden';  
-	console.log('Area2 被點擊了！');  //Chrome debug: can see Console's Log
+	console.log('Area2 被點擊了！');
 } );
 const Area03Element = document.getElementById('Area03');
 Area03Element.addEventListener('click', function() {
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='hidden';
 	document.getElementById('App').style.visibility='visible';  
-	document.getElementById('App00').style.visibility='hidden';
 	document.getElementById('App02').style.visibility='hidden'; 
 	document.getElementById('App03').style.visibility='visible';
 	document.getElementById('App04').style.visibility='hidden';  
 	document.getElementById('App05').style.visibility='hidden';  
-	console.log('Area3 被點擊了！');  //Chrome debug: can see Console's Log} );
+	console.log('Area3 被點擊了！');
+} );
 //onclick="itemclick(4);show04time();  "
 const Area04Element = document.getElementById('Area04');
 Area04Element.addEventListener('click', function() {
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='hidden';
 	document.getElementById('App').style.visibility='visible';  
-	document.getElementById('App00').style.visibility='hidden';
 	document.getElementById('App02').style.visibility='hidden'; 
 	document.getElementById('App03').style.visibility='hidden';
 	document.getElementById('App04').style.visibility='visible';
 	document.getElementById('App05').style.visibility='hidden';    
-	console.log('Area4 被點擊了！');  //Chrome debug: can see Console's Log
+	console.log('Area4 被點擊了！');
 } );
 //onclick="itemclick(5); "
 const Area05Element = document.getElementById('Area05');
@@ -57,12 +54,11 @@ Area05Element.addEventListener('click', function() {
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='hidden';
 	document.getElementById('App').style.visibility='visible';  
-	document.getElementById('App00').style.visibility='hidden';
 	document.getElementById('App02').style.visibility='hidden'; 
 	document.getElementById('App03').style.visibility='hidden';
 	document.getElementById('App04').style.visibility='hidden'; 
 	document.getElementById('App05').style.visibility='visible';   
-	console.log('Area5 被點擊了！');  //Chrome debug: can see Console's Log
+	console.log('Area5 被點擊了！');
 } );
 
 
@@ -93,7 +89,7 @@ AreaApp04Element.addEventListener('click', function() {
 
 const AreaApp05Element = document.getElementById('AreaApp05');
 AreaApp05Element.addEventListener('click', function() {
-	alert('記憶體空間不足, 請關閉程式'); 
+	alert('Area5'); 
 } );
 
 
