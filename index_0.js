@@ -7,8 +7,9 @@ Area01Element.addEventListener('click', function() {
 	//alert("Area01");
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='visible';
-	document.getElementById('App').style.visibility='visible';   
-	document.getElementById('App02').style.visibility='hidden';
+	document.getElementById('App').style.visibility='visible';
+	document.getElementById('App00').style.visibility='visible';  
+   	document.getElementById('App02').style.visibility='hidden';
 	document.getElementById('App03').style.visibility='hidden';
 	document.getElementById('App04').style.visibility='hidden'; 
 	document.getElementById('App05').style.visibility='hidden';  
@@ -19,6 +20,7 @@ Area02Element.addEventListener('click', function() {
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='hidden';
 	document.getElementById('App').style.visibility='visible';  
+	document.getElementById('App00').style.visibility='hidden';
 	document.getElementById('App02').style.visibility='visible'; 
 	document.getElementById('App03').style.visibility='hidden';
 	document.getElementById('App04').style.visibility='hidden';
@@ -30,6 +32,7 @@ Area03Element.addEventListener('click', function() {
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='hidden';
 	document.getElementById('App').style.visibility='visible';  
+	document.getElementById('App00').style.visibility='hidden';
 	document.getElementById('App02').style.visibility='hidden'; 
 	document.getElementById('App03').style.visibility='visible';
 	document.getElementById('App04').style.visibility='hidden';  
@@ -42,6 +45,7 @@ Area04Element.addEventListener('click', function() {
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='hidden';
 	document.getElementById('App').style.visibility='visible';  
+	document.getElementById('App00').style.visibility='hidden';
 	document.getElementById('App02').style.visibility='hidden'; 
 	document.getElementById('App03').style.visibility='hidden';
 	document.getElementById('App04').style.visibility='visible';
@@ -54,6 +58,7 @@ Area05Element.addEventListener('click', function() {
 	document.getElementById('App01').style.visibility='visible';
 	document.getElementById('showbox').style.visibility='hidden';
 	document.getElementById('App').style.visibility='visible';  
+	document.getElementById('App00').style.visibility='hidden';
 	document.getElementById('App02').style.visibility='hidden'; 
 	document.getElementById('App03').style.visibility='hidden';
 	document.getElementById('App04').style.visibility='hidden'; 
@@ -89,7 +94,7 @@ AreaApp04Element.addEventListener('click', function() {
 
 const AreaApp05Element = document.getElementById('AreaApp05');
 AreaApp05Element.addEventListener('click', function() {
-	alert('Area5'); 
+	alert('記憶體空間不足, 請關閉程式重新開啟'); 
 } );
 
 
