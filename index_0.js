@@ -89,7 +89,7 @@ AreaApp04Element.addEventListener('click', function() {
 
 const AreaApp05Element = document.getElementById('AreaApp05');
 AreaApp05Element.addEventListener('click', function() {
-	alert('Area5'); 
+	alert('記憶體不足, 請重啟程式'); 
 } );
 
 
